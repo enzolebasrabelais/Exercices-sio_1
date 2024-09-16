@@ -10,3 +10,14 @@ C:\Users\eleve\source\repos\EL-TPVB\obj\Debug\EL-TPVB.vbproj.CoreCompileInputs.c
 C:\Users\eleve\source\repos\EL-TPVB\obj\Debug\EL-TPVB.exe
 C:\Users\eleve\source\repos\EL-TPVB\obj\Debug\EL-TPVB.xml
 C:\Users\eleve\source\repos\EL-TPVB\obj\Debug\EL-TPVB.pdb
+C:\Projet Github\Exercices-sio_1\bin\Debug\EL-TPVB.exe.config
+C:\Projet Github\Exercices-sio_1\bin\Debug\EL-TPVB.exe
+C:\Projet Github\Exercices-sio_1\bin\Debug\EL-TPVB.pdb
+C:\Projet Github\Exercices-sio_1\bin\Debug\EL-TPVB.xml
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.vbproj.AssemblyReference.cache
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL_TPVB.Resources.resources
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.vbproj.GenerateResource.cache
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.vbproj.CoreCompileInputs.cache
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.exe
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.xml
+C:\Projet Github\Exercices-sio_1\obj\Debug\EL-TPVB.pdb

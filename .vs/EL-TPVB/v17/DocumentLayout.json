@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projet Github\\Exercices-sio_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_7_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_7_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EL-TPVB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exercice_7_1.vb",
+              "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_1.vb",
+              "RelativeDocumentMoniker": "Exercice_7_1.vb",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_1.vb",
+              "RelativeToolTip": "Exercice_7_1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-16T12:28:10.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EL-TPVB",
+              "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
+              "RelativeDocumentMoniker": "EL-TPVB.vbproj",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
+              "RelativeToolTip": "EL-TPVB.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-16T09:50:04.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercice_7_2.vb",
+              "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_2.vb",
+              "RelativeDocumentMoniker": "Exercice_7_2.vb",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_2.vb",
+              "RelativeToolTip": "Exercice_7_2.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-16T09:24:02.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
