@@ -3,14 +3,18 @@
   "WorkspaceRootPath": "C:\\Projet Github\\Exercices-sio_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_9_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_9_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_9_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_9_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EL-TPVB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\test_boucles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_9_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_9_1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|C:\\Projet Github\\Exercices-sio_1\\test_boucles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:test_boucles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -41,12 +45,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Exercice_9_3.vb",
+              "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_9_3.vb",
+              "RelativeDocumentMoniker": "Exercice_9_3.vb",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_9_3.vb",
+              "RelativeToolTip": "Exercice_9_3.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T14:38:58.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Exercice_9_1.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_9_1.vb",
               "RelativeDocumentMoniker": "Exercice_9_1.vb",
               "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_9_1.vb",
               "RelativeToolTip": "Exercice_9_1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-23T14:22:18.689Z",
               "EditorCaption": ""
@@ -57,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Test_Boucles.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Test_Boucles.vb",
               "RelativeDocumentMoniker": "Test_Boucles.vb",
@@ -65,12 +82,11 @@
               "RelativeToolTip": "Test_Boucles.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-19T13:04:57.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T13:04:57.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Exercice_7_3.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_3.vb",
               "RelativeDocumentMoniker": "Exercice_7_3.vb",
@@ -78,12 +94,11 @@
               "RelativeToolTip": "Exercice_7_3.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-16T12:52:38.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T12:52:38.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Exercice_7_1.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_1.vb",
               "RelativeDocumentMoniker": "Exercice_7_1.vb",
@@ -99,15 +114,15 @@
               "Title": "EL-TPVB",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
               "RelativeDocumentMoniker": "EL-TPVB.vbproj",
-              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj*",
-              "RelativeToolTip": "EL-TPVB.vbproj*",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
+              "RelativeToolTip": "EL-TPVB.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-16T09:50:04.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Exercice_7_2.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_7_2.vb",
               "RelativeDocumentMoniker": "Exercice_7_2.vb",
