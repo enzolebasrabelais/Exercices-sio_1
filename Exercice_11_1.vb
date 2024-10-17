@@ -45,7 +45,7 @@
                         Console.WriteLine("Largeur du rectangle ? (Largueur > 0)")
                         largeur = Console.ReadLine()
                     Loop Until largeur > 0
-                    Console.WriteLine("Périmètre: " + PerimetreRectangle(longueur, largeur).ToString)
+                    Console.WriteLine("Périmètre: " + PerimetreRectangle(longueur, largeur).ToString())
                 Case 4
                     Do
                         Console.WriteLine("Longueur du rectangle ? (Longueur > 0)")
