@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{917FDA6F-74E2-444C-B737-30D7063ABAF1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>EL_TPVB.Exercice_11_3</StartupObject>
+    <StartupObject>EL_TPVB.Exercice_11_2</StartupObject>
     <RootNamespace>EL_TPVB</RootNamespace>
     <AssemblyName>EL-TPVB</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="BonjourLeMonde.vb" />
     <Compile Include="Exercice_11_1.vb" />
+    <Compile Include="Exercice_11_2.vb" />
     <Compile Include="Exercice_11_3.vb" />
     <Compile Include="Exercice_7_1.vb" />
     <Compile Include="Exercice_7_2.vb" />
