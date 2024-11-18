@@ -10,7 +10,7 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EL-TPVB||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\exercice_13_1_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|C:\\Projet Github\\Exercices-sio_1\\exercice_13_1_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_13_1_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -60,9 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|C:\\Projet Github\\Exercices-sio_1\\exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,8 +69,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -82,7 +83,7 @@
               "RelativeDocumentMoniker": "Exercice_13_1_4.vb",
               "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_13_1_4.vb",
               "RelativeToolTip": "Exercice_13_1_4.vb",
-              "ViewState": "AQIAAAEAAAAAAAAAAAA1wAwAAAAjAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-11-18T10:17:07.173Z",
               "EditorCaption": ""
@@ -97,12 +98,7 @@
               "RelativeToolTip": "Exercice_13_1_2.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-11-12T15:44:42.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-11-12T15:44:42.445Z"
             },
             {
               "$type": "Document",
@@ -158,11 +154,10 @@
               "Title": "EL-TPVB",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
               "RelativeDocumentMoniker": "EL-TPVB.vbproj",
-              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj*",
-              "RelativeToolTip": "EL-TPVB.vbproj*",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
+              "RelativeToolTip": "EL-TPVB.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-16T09:50:04.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T09:50:04.403Z"
             },
             {
               "$type": "Document",
