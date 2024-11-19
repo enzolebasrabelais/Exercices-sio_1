@@ -31,6 +31,9 @@
             If montant > 0 Then
                 Console.WriteLine("Montant dans l'ancienne monnaie nationale : " + conversionMonnaie.ToString())
             End If
+            If montant = 0 Then
+                Console.WriteLine("Au revoir.")
+            End If
         Loop Until montant = 0
     End Sub
 End Module
