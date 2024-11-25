@@ -1,13 +1,17 @@
 ﻿Module Exercice_13_2
+
     Sub AfficherMatrice(ByVal pMatrice(,) As Double)
-        Console.WriteLine(vbTab(pMatrice.ToString()))
+
+
+        'Dim v As Double = pMatrice
+        ' Console.WriteLine(vbTab(v))
     End Sub
 
     Sub Echanger(ByRef pA As Double, ByRef pB As Double)
         Dim valeurdeA As Double
         valeurdeA = pA
-
-
+        pA = pB
+        pB = valeurdeA
     End Sub
 
     Sub InverserLignesMatrice()
