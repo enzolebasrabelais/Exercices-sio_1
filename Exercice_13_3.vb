@@ -40,10 +40,8 @@
         occupation(2, 2, 4) = 1
         occupation(8, 3, 2) = 1
         occupation(5, 3, 3) = 1
-        ' ! ! ! ! !
-        ' ! ! ! ! ! A COMPLETER ! ! ! ! !
-        ' ! ! ! ! !
-
+        Console.WriteLine("Entrez un jour : ")
+        jourLu = Console.ReadLine
         Console.ReadLine()
     End Sub
 
