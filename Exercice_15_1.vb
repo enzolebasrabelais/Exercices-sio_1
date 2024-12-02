@@ -26,7 +26,9 @@ Module Exercice_15_1
 
 
     Sub AfficherUnClient(ByVal pUnClient As TClient)
-        Console.WriteLine(pUnClient.ToString())
+        Console.WriteLine("Code client : " + pUnClient.code)
+        Console.WriteLine("Nom : " + pUnClient.nom)
+        Console.WriteLine("Adresse : " + pUnClient.adresse)
 
     End Sub
 
@@ -41,17 +43,26 @@ Module Exercice_15_1
         ' client, de type TClient, 'vide', à l'exception du champ code qui sera
 
         ' mis à X
+        Dim i As Integer
         For i = 0 To MAX
             If pTabCommandes(i).numéro = pNuméroCommande Then
+                For j = 0 To MAX
+                    While pTabCommandes(i).codeClient <> pTabClients(j).code
+                        j += 1
+                    End While
+                    If pTabClients(j).code = pTabCommandes(i).codeClient Then
+                        Return pTabClients(j)
+                    End If
+                Next
 
-            Else
-                pTabClients(i).nom = ""
-                pTabClients(i).adresse = ""
-                pTabClients(i).code = "X"
-                Return pTabClients(i)
-                Console.WriteLine("Client ou commande non trouvée")
+
             End If
         Next
+        pTabClients(i).nom = ""
+        pTabClients(i).adresse = ""
+        pTabClients(i).code = "X"
+        Console.WriteLine("Client ou commande non trouvé(e)")
+        Return pTabClients(i)
     End Function
 
 
@@ -116,8 +127,8 @@ Module Exercice_15_1
                     numeroCommande = Console.ReadLine()
                     client = ClientPourUneCommande(numeroCommande, lesCommandes, lesClients)
                     Console.WriteLine("Code client : " + client.code.ToString())
-                    Console.WriteLine("Code client : " + client.nom.ToString())
-                    Console.WriteLine("Code client : " + client.adresse.ToString())
+                    Console.WriteLine("Nom : " + client.nom.ToString())
+                    Console.WriteLine("Adresse : " + client.adresse.ToString())
 
                 Case 3
                     Console.WriteLine("Au revoir")

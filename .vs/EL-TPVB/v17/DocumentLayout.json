@@ -72,9 +72,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|C:\\Projet Github\\Exercices-sio_1\\exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|solutionrelative:exercice_7_2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{917FDA6F-74E2-444C-B737-30D7063ABAF1}|EL-TPVB.vbproj|c:\\projet github\\exercices-sio_1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,24 +81,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Exercice_15_1.vb",
               "DocumentMoniker": "C:\\Projet Github\\Exercices-sio_1\\Exercice_15_1.vb",
               "RelativeDocumentMoniker": "Exercice_15_1.vb",
-              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_15_1.vb*",
-              "RelativeToolTip": "Exercice_15_1.vb*",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAmwEEAAAAUAAAA",
+              "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\Exercice_15_1.vb",
+              "RelativeToolTip": "Exercice_15_1.vb",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAswC0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-11-25T13:05:38.52Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -172,8 +169,7 @@
               "ToolTip": "C:\\Projet Github\\Exercices-sio_1\\EL-TPVB.vbproj",
               "RelativeToolTip": "EL-TPVB.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-16T09:50:04.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T09:50:04.403Z"
             },
             {
               "$type": "Document",
