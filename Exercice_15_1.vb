@@ -1,4 +1,6 @@
-﻿Module Exercice_15_1
+﻿Imports System.Xml.Schema
+
+Module Exercice_15_1
     Const MAX As Integer = 2
 
 
@@ -41,12 +43,13 @@
         ' mis à X
         For i = 0 To MAX
             If pTabCommandes(i).numéro = pNuméroCommande Then
-                Return pTabClients(i)
+
             Else
                 pTabClients(i).nom = ""
                 pTabClients(i).adresse = ""
                 pTabClients(i).code = "X"
                 Return pTabClients(i)
+                Console.WriteLine("Client ou commande non trouvée")
             End If
         Next
     End Function
@@ -54,17 +57,24 @@
 
 
     Function MontantCommandé(ByVal pCodeClient As String, ByVal pTabCommandes() As TCommande) As Double
-        Return pTabCommandes(pCodeClient).montant
-
+        Dim total As Double
+        For i = 0 To MAX
+            If pCodeClient = pTabCommandes(i).codeClient Then
+                total += pTabCommandes(i).montant
+            End If
+        Next
+        Return total
     End Function
 
 
 
     Sub Main()
 
-        Dim lesClients(MAX) As TClient
+        Dim lesClients(MAX), client As TClient
         Dim lesCommandes(MAX) As TCommande
-        Dim choix As Double
+        Dim choix, montantclient As Double
+        Dim codeduClient As String
+        Dim numeroCommande As Integer
 
         lesClients(0).code = "C01"
         lesClients(0).nom = "NomC01"
@@ -88,19 +98,31 @@
         lesCommandes(2).montant = 300
         lesCommandes(2).codeClient = "C02"
         ' A COMPLETER
-        Console.WriteLine("1. Montant total des commandes passées par un client (code client)")
-        Console.WriteLine("2. Détails d'un client pour une commande (n° de commande)")
-        Console.WriteLine("3. Quitter")
-        choix = Console.ReadLine()
+        Do
+            Console.WriteLine("1. Montant total des commandes passées par un client (code client)")
+            Console.WriteLine("2. Détails d'un client pour une commande (n° de commande)")
+            Console.WriteLine("3. Quitter")
+            Console.WriteLine("Choix ?")
+            choix = Console.ReadLine()
 
-        Select Case choix
-            Case 1
-                Dim codeClient As String
-                Console.WriteLine("Code client ?")
-                codeClient = Console.ReadLine()
-                Console.WriteLine("Montant commandé : " + MontantCommandé(codeClient, lesCommandes).ToString())
-        End Select
+            Select Case choix
+                Case 1
+                    Console.WriteLine("Code client ?")
+                    codeduClient = Console.ReadLine()
+                    montantclient = MontantCommandé(codeduClient, lesCommandes)
+                    Console.WriteLine("Montant commandé : " + montantclient.ToString())
+                Case 2
+                    Console.WriteLine("Numéro commande ?")
+                    numeroCommande = Console.ReadLine()
+                    client = ClientPourUneCommande(numeroCommande, lesCommandes, lesClients)
+                    Console.WriteLine("Code client : " + client.code.ToString())
+                    Console.WriteLine("Code client : " + client.nom.ToString())
+                    Console.WriteLine("Code client : " + client.adresse.ToString())
 
+                Case 3
+                    Console.WriteLine("Au revoir")
+            End Select
+        Loop Until choix = 3
         Console.ReadLine()
     End Sub
 End Module
