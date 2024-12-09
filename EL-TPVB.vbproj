@@ -80,6 +80,7 @@
     <Compile Include="Exercice_13_2.vb" />
     <Compile Include="Exercice_13_3.vb" />
     <Compile Include="Exercice_15_1.vb" />
+    <Compile Include="Exercice_15_2.vb" />
     <Compile Include="Exercice_7_1.vb" />
     <Compile Include="Exercice_7_2.vb" />
     <Compile Include="Exercice_7_3.vb" />
