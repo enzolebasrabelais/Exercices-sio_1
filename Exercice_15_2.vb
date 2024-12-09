@@ -20,7 +20,10 @@
 
     Sub AfficherUnMatériel(ByVal pUnMatériel As TMatériel)
         ' Affiche un matériel
-        Console.WriteLine(pUnMatériel)
+        Console.WriteLine("n° de série : " + pUnMatériel.noSerie)
+        Console.WriteLine("Modèle : " + pUnMatériel.modèle)
+        Console.WriteLine("Type : " + pUnMatériel.type)
+        Console.WriteLine("Année d'achat : " + pUnMatériel.annéeDAchat)
     End Sub
 
 
@@ -35,16 +38,20 @@
     Function AjouterUnMatériel(ByVal pMatériel As TMatériel, ByVal pLesMatériels() As TMatériel, ByVal pPosLibre As Integer) As Boolean
         If pPosLibre <= MAX - 1 Then
             pLesMatériels(pPosLibre) = pMatériel
+            pPosLibre += 1
             Return True
         Else
             Return False
+
         End If
         ' Ajoute un matériel au parc (tableau). Si l'ajout est possible retourne True, False sinon.
     End Function
 
 
     Function SupprimerParIndex(ByVal pIndex As Integer, ByVal pLesMatériels() As TMatériel, ByVal pPosLibre As Integer) As Boolean
-
+        For i = 0 To pPosLibre - 1
+            'pLesMatériels(i) =
+        Next
         ' Supprime un matériel du parc (tableau). Si la suppression est possible, retourne True, False sinon.
     End Function
 
@@ -55,16 +62,43 @@
 
     Sub Main()
         Dim choix As String
-        Console.WriteLine("1. Ajouter un matériel dans le tableau.")
-        Console.WriteLine("2. Supprimer un matériel (saisie index)")
-        Console.WriteLine("3. Supprimer un matériel (saisie n° série).")
-        Console.WriteLine("4. Lister à l'écran tous les matériels.")
-        Console.WriteLine("5. Quitter.")
-        Console.WriteLine("Choix ?")
-        choix = Console.ReadLine()
-        Select Case choix
-            Case 1
+        Dim materiel, tMateriels() As TMatériel
+        Dim vPosLibre, index As Integer
+        Do
+            vPosLibre = 0
+            Console.WriteLine("1. Ajouter un matériel dans le tableau.")
+            Console.WriteLine("2. Supprimer un matériel (saisie index)")
+            Console.WriteLine("3. Supprimer un matériel (saisie n° série).")
+            Console.WriteLine("4. Lister à l'écran tous les matériels.")
+            Console.WriteLine("5. Quitter.")
+            Console.WriteLine("Choix ?")
+            choix = Console.ReadLine()
+            Select Case choix
+                Case 1
+                    Console.WriteLine("n° de série ?")
+                    materiel.noSerie = Console.ReadLine()
+                    Console.WriteLine("Modèle ?")
+                    materiel.modèle = Console.ReadLine()
+                    Console.WriteLine("Type ?")
+                    materiel.type = Console.ReadLine()
+                    Console.WriteLine("Année d'achat ?")
+                    materiel.annéeDAchat = Console.ReadLine()
+                    AjouterUnMatériel(materiel, tMateriels, vPosLibre)
+                    If AjouterUnMatériel(materiel, tMateriels, vPosLibre) = False Then
+                        Console.WriteLine("Ajout impossible.")
+                    Else
+                        Console.WriteLine("Ajout effectué.")
+                    End If
 
-        End Select
+                Case 2
+
+                Case 3
+
+                Case 4
+
+                Case 5
+                    Console.WriteLine("Au revoir")
+            End Select
+        Loop Until choix = 5
     End Sub
 End Module
