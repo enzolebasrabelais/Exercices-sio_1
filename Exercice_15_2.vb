@@ -7,12 +7,12 @@
         Dim annéeDAchat As Integer
     End Structure
     Function SaisirMatériel() As TMatériel
-        Dim pc As TMatériel
+        Dim pc, tabMateriels() = {pc} As TMatériel
         pc.noSerie = "NS23"
         pc.modèle = "Optiflex 526"
         pc.type = "PC"
         pc.annéeDAchat = 2024
-        Return pc
+        Return
         ' retourne un matériel saisi l'utilisateur
     End Function
 
@@ -49,9 +49,15 @@
 
 
     Function SupprimerParIndex(ByVal pIndex As Integer, ByVal pLesMatériels() As TMatériel, ByVal pPosLibre As Integer) As Boolean
-        For i = 0 To pPosLibre - 1
-            'pLesMatériels(i) =
-        Next
+        If pIndex = -1 Then
+            Return False
+        Else
+            For i = pIndex To pPosLibre - 2
+                pLesMatériels(i) = pLesMatériels(i + 1)
+            Next
+            pPosLibre -= 1
+        End If
+        Return True
         ' Supprime un matériel du parc (tableau). Si la suppression est possible, retourne True, False sinon.
     End Function
 
@@ -61,10 +67,13 @@
     End Function
 
     Sub Main()
-        Dim choix As String
-        Dim materiel, tMateriels() As TMatériel
+        Dim choix, noserie As String
+        Dim materiel As TMatériel
         Dim vPosLibre, index As Integer
         Do
+            SaisirMatériel()
+            materiel = SaisirMatériel()
+
             vPosLibre = 0
             Console.WriteLine("1. Ajouter un matériel dans le tableau.")
             Console.WriteLine("2. Supprimer un matériel (saisie index)")
@@ -91,11 +100,25 @@
                     End If
 
                 Case 2
-
+                    Console.WriteLine("n° d'index du matériel à supprimer ?")
+                    index = Console.ReadLine()
+                    SupprimerParIndex(index, tMateriels, vPosLibre)
+                    If SupprimerParIndex(index, tMateriels, vPosLibre) = False Then
+                        Console.WriteLine("Suppression impossible.")
+                    Else
+                        Console.WriteLine("Suppression réussie.")
+                    End If
                 Case 3
-
+                    Console.WriteLine("n° de série du matériel à supprimer ?")
+                    noserie = Console.ReadLine()
+                    SupprimerParNoSérie(noserie, tMateriels, vPosLibre)
+                    If SupprimerParNoSérie(noserie, tMateriels, vPosLibre) = False Then
+                        Console.WriteLine("Suppression impossible.")
+                    Else
+                        Console.WriteLine("Suppression réussie.")
+                    End If
                 Case 4
-
+                    AfficherLesMatériels(tMateriels, vPosLibre)
                 Case 5
                     Console.WriteLine("Au revoir")
             End Select
